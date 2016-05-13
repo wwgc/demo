@@ -1,6 +1,6 @@
 'use strict';
 
-function maxsum4(arr){
+const maxsum4 = function (arr){
 	let maxsofar = 0;
 	let maxendinghere = 0;
 	for(let i = 0; i < arr.length;i ++){
@@ -9,3 +9,5 @@ function maxsum4(arr){
 	}
 	return maxsofar;
 }
+
+module.exports = maxsum4;
