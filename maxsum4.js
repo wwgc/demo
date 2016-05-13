@@ -1,6 +1,6 @@
 'use strict';
 
-const maxsum4 = function (arr){
+const maxsum4 = function(arr){
 	let maxsofar = 0;
 	let maxendinghere = 0;
 	for(let i = 0; i < arr.length;i ++){
