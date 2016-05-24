@@ -1,6 +1,6 @@
 'use strict';
 
-//[0,n),p=m/n
+//[0,n),p=m/n,lost:14971.441ms
 var getRandomInt1 = function(m, n){
 	let dest = [];
 	for(let i=0; i<n; i++){
