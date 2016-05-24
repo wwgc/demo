@@ -1,6 +1,6 @@
 'use strict';
 
-//[0,n),p=m/n,last:JavaScript heap out of memory
+//[0,n);p=m/n;(m=5000000, n=1000000000)=>JavaScript heap out of memory
 var getRandomInt3 = function(m, n){
 	let dest = [],i=0,j=0,tmp;
 	for(; i<n; i++){
